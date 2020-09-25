@@ -25,7 +25,7 @@ node()
      
      stage('Package Build')
      {
-        sh "tar -zcvf bundle.tar.gz"
+        sh "tar -zcvf bundle.tar.gz dist/my-app/"
      }
         
      stage('Artifcts creation')
